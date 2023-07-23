@@ -3,3 +3,55 @@
 @tailwind utilities;
 
 
+.color-menu{
+    color: #4B5563;
+}
+
+.color-button-primary{
+    color: #F9FAFB;
+}
+
+.color-title-primary{
+    color: #111827;
+}
+
+.bg-button-primary{
+    background-color: #111827;
+}
+
+.color-default{
+    color: #4B5563;
+}
+
+/****  font family Inter ******/
+
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/font-familly/inter/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: "inter-100";
+    src: url("./assets/font-familly/inter/Inter-Thin.ttf");
+}
+
+.inter-100{
+    font-family: "inter-100";
+}
+
+@font-face {
+    font-family: "inter-100";
+    src: url("./assets/font-familly/inter/Inter-Thin.ttf");
+}
+
+/******** Header *****/
+
+header{
+    height: 80px;
+    font-family: "Inter";
+}
+
+nav{
+    height: 80px;
+    font-family: "Inter";
+}
