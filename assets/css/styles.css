@@ -55,3 +55,7 @@ nav{
     height: 80px;
     font-family: "Inter";
 }
+
+.max-width-mobile{
+    max-width: 300px;
+}

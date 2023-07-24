@@ -12,13 +12,13 @@
 
 <body>
     <!-- /************ header ******************/ -->
-    <header class=" mx-auto flex items-center justify-center max-w-screen-xl md:max-w-2xl lg:max-w-screen-xl">
-        <div class="grid grid-cols-2 gap-3 w-full items-center">
+    <header class=" mx-auto max-width-mobile flex items-center justify-center max-w-screen-xl sm:max-w-2xl md:max-w-2xl lg:max-w-screen-xl">
+        <div class="flex gap-3 w-full items-center justify-between">
             <div class="logo">
                 <a href="#"><img src="./assets/images/icons/logo.png" alt="Logo"></a>
             </div>
-            <div class="flex items-center gap-6 justify-end md:hidden lg:flex">
-                <ul class="list-none flex gap-6 color-default">
+            <div class="flex items-center gap-6  justify-end min-[320px]:hidden sm:hidden md:flex md:p-0 ">
+                <ul class="list-none flex gap-6 gacolor-default">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Work</a></li>
                     <li><a href="#">Testimonials</a></li>
@@ -35,7 +35,7 @@
 
         <!-- /******** mobily menu *******/ -->
 
-        <div class="lg:hidden">
+        <div class="md:hidden">
             <button
                 class="navbar-burger flex items-center text-blue-600 transition-all duration-75 ease-in-out delay-75">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -52,7 +52,7 @@
         <div class="navbar-menu relative z-50 hidden transition-all duration-75 ease-in-out delay-75">
             <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
             <nav
-                class="fixed top-0 right-0 bottom-0 transition-all duration-75 ease-in-out delay-75 h-full flex flex-col w-5/6 max-w-sm py-6 px-11 bg-white border-r overflow-y-auto">
+                class="fixed min-[320px]:px-3 min-[320px]:w-full top-0 right-0 bottom-0 transition-all duration-75 ease-in-out delay-75 h-full flex flex-col w-5/6 max-w-sm py-6 px-11 bg-white border-r overflow-y-auto">
                 <div class="flex items-center mb-8">
                     <a class="mr-auto text-3xl font-bold leading-none" href="#">
                         <img src="./assets/images/icons/logo.png" alt="Logo">
