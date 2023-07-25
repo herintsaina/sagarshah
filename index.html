@@ -5,97 +5,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind</title>
+    <title>Sagar Shah | Full Stack Developer From Ahmedabad, India.</title>
     <link rel="stylesheet" href="./assets/css/tailwind.css">
     <link rel="stylesheet" href="./assets/content/header.css">
+    <link rel="shortcut icon" href="./assets/images/icons/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <!-- /************ header ******************/ -->
-    <header class=" mx-auto max-width-mobile flex items-center justify-center max-w-screen-xl sm:max-w-2xl md:max-w-2xl lg:max-w-screen-xl">
-        <div class="flex gap-3 w-full items-center justify-between">
-            <div class="logo">
-                <a href="#"><img src="./assets/images/icons/logo.png" alt="Logo"></a>
-            </div>
-            <div class="flex items-center gap-6  justify-end min-[320px]:hidden sm:hidden md:flex md:p-0 ">
-                <ul class="list-none flex gap-6 gacolor-default">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <a href="#">
-                    <img src="./assets/images/icons/icon-sun.png" alt="Icon sun">
-                </a>
-                <button class="bg-button-primary color-button-primary px-3  py-2" style="border-radius: 12px;">
-                    Download CV
-                </button>
-            </div>
-        </div>
-
-        <!-- /******** mobily menu *******/ -->
-
-        <div class="md:hidden">
-            <button
-                class="navbar-burger flex items-center text-blue-600 transition-all duration-75 ease-in-out delay-75">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M4 12H20" stroke="#4B5563" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    <path d="M4 6H20" stroke="#4B5563" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    <path d="M4 18H20" stroke="#4B5563" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                </svg>
-            </button>
-        </div>
-
-        <div class="navbar-menu relative z-50 hidden transition-all duration-75 ease-in-out delay-75">
-            <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-            <nav
-                class="fixed min-[320px]:px-3 min-[320px]:w-full top-0 right-0 bottom-0 transition-all duration-75 ease-in-out delay-75 h-full flex flex-col w-5/6 max-w-sm py-6 px-11 bg-white border-r overflow-y-auto">
-                <div class="flex items-center mb-8">
-                    <a class="mr-auto text-3xl font-bold leading-none" href="#">
-                        <img src="./assets/images/icons/logo.png" alt="Logo">
+    <div class="banner h-screen">
+        <!-- /************ header ******************/ -->
+        <header
+            class="fixed mx-auto  flex items-center justify-center ">
+            <div class="flex gap-3 w-full items-center justify-between">
+                <div class="logo">
+                    <a href="#"><img src="./assets/images/icons/logo.png" alt="Logo"></a>
+                </div>
+                <div class="flex items-center gap-6  justify-end min-[320px]:hidden sm:hidden md:flex md:p-0 ">
+                    <ul class="list-none flex gap-6 color-default">
+                        <li><a href="#" class="hover:text-gray-900">About</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Work</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Testimonials</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Contact</a></li>
+                    </ul>
+                    <a href="#" class="hover:bg-gray-100 p-1 rounded-lg">
+                        <img src="./assets/images/icons/icon-moon.png" alt="Icon sun">
                     </a>
-                    <button class="navbar-close relative top">
-                        <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M6 18L18 6M6 6l12 12"></path>
-                        </svg>
+                    <button
+                        class="bg-button-primary hover:bg-gray-700 hover:text-gray-50 color-button-primary px-3  py-2"
+                        style="border-radius: 12px;">
+                        Download CV
                     </button>
                 </div>
-                <div>
-                    <ul>
-                        <li class="mb-1">
-                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                                href="#">Home</a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                                href="#">About Us</a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                                href="#">Services</a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                                href="#">Pricing</a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-                                href="#">Contact</a>
-                        </li>
-                    </ul>
+            </div>
+
+            <!-- /******** mobily menu *******/ -->
+
+            <div class="md:hidden">
+                <button
+                    class="navbar-burger flex items-center text-blue-600 transition-all duration-75 ease-in-out delay-75">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M4 12H20" stroke="#4B5563" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M4 6H20" stroke="#4B5563" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M4 18H20" stroke="#4B5563" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="navbar-menu relative z-50 hidden transition-all duration-75 ease-in-out delay-75">
+                <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+                <nav
+                    class="fixed min-[320px]:px-3 min-[320px]:w-full top-0 right-0 bottom-0 transition-all duration-75 ease-in-out delay-75 h-full flex flex-col w-5/6 max-w-sm py-6 px-11 bg-white border-r overflow-y-auto">
+                    <div class="flex items-center mb-8">
+                        <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                            <img src="./assets/images/icons/logo.png" alt="Logo">
+                        </a>
+                        <button class="navbar-close relative top">
+                            <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#">Home</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#">About Us</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#">Services</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#">Pricing</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+
+
+        </header>
+
+        <!-- /************ Banner *****************/ -->
+
+        <section class="h-full mx-auto  pt-16 max-width-mobile max-w-screen-xl sm:max-w-2xl md:max-w-2xl lg:max-w-screen-xl ">
+            <div class="grid h-full grid-cols-[70%,30%] ">
+                <div class="content-introduction">
+
                 </div>
 
-            </nav>
-        </div>
+                <div class="profil-banner">
+                    <img src="./assets/images/illustration/profil-banner.png" alt="Profil banner">
+                </div>
+            </div>
+        </section>
 
 
-    </header>
-
+    </div>
 
 
     <script src="script.js"></script>

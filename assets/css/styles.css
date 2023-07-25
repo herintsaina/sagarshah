@@ -59,3 +59,7 @@ nav{
 .max-width-mobile{
     max-width: 300px;
 }
+
+.hover-color{
+    color: var(--gray-900, #111827);
+}
